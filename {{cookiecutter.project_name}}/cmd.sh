@@ -17,7 +17,7 @@ function main() {
         ;;
     "init")
         virtualenv -p python3 venv
-        . venv/bin/ativate
+        . venv/bin/activate
         pip install -r requirements.txt
         ;;
     *)
