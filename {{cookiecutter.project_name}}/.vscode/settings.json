@@ -9,7 +9,7 @@
     "python.testing.unittestArgs": [
         "-v",
         "-s",
-        "./daily",
+        "./{{ cookiecutter.project_name }}",
         "-p",
         "test_*.py"
     ],
