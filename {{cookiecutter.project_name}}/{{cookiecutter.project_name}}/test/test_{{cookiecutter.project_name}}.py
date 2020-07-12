@@ -1,5 +1,5 @@
 import unittest
-from {{cookiecutter.project_name}} import fn
+from {{cookiecutter.project_name}}.{{cookiecutter.project_name}} import fn
 
 
 class EasyTestCase(unittest.TestCase):
